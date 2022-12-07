@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* ------------NAVBAR---------------------- */
+.Navbar{
+display: flex;
+justify-content: space-evenly;
+padding: 15px;
+width: 100%;
+background-color: black;
+}
+#link1{
+color: white;
+}
