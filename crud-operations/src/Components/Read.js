@@ -16,14 +16,15 @@ const Read = () => {
         e.preventDefault();
         fetch(url.url)
         .then(res => res.json())
-        .then(data => setData(data.data))
+            .then(data => setData(data.data))
+        alert("data received");
     }
     console.log(data)
 
 
     return (
         <div>
-            <h1>-: Read(Get) :-</h1>
+            <h1>-: Read/Get :-</h1>
             <div className='read'>
                 <div className='read1'>
                     <div>
@@ -40,11 +41,6 @@ const Read = () => {
             </div>
             <div style={{ backgroundColor: 'black', color: 'white', padding:"20px  0", width:'100%', margin:'auto' }}>
                 <h1>CODE</h1>
-                <p>
-                    fetch("https://reqres.in/api/users?page=1")
-                    .then(res => res.json())
-                    .then(data => console.log(data))
-                </p>
             </div>
         </div>
     )

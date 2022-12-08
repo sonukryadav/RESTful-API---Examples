@@ -1,13 +1,11 @@
 {
   "data": [
     {
+      "name": "sonu",
+      "mob": "123456789",
+      "vil": "25sd",
       "id": 1,
-      "email": "lclubb0@angelfire.com",
-      "image": "http://dummyimage.com/105x100.png/cc0000/ffffff",
-      "gender": "Female",
-      "last_name": "Clubb",
-      "first_name": "Leese",
-      "ip_address": "42.250.136.102"
+      "age": "23"
     },
     {
       "id": 2,
