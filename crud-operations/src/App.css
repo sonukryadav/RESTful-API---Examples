@@ -92,3 +92,68 @@ width: 100%;
   cursor: pointer;
   margin:20px 0px;
 }
+
+
+/* ---------Create-------------- */
+
+.create1{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 98%;
+  margin:auto;
+  gap: 0px 10px;
+  border: 3px solid rgb(18, 52, 155);
+}
+
+.create2{
+  display: block;
+  border: 3px solid red;
+  margin: auto;
+}
+
+form.form1{
+  display: table;
+}
+div.form1{
+  display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 700;
+  padding-right: 50px;
+}
+
+
+
+.inp3{
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: lightblue;
+  color: black;
+  font-weight: 600;
+}
+
+.inp4{
+  border: 1px solid black;
+  padding: 10px 50px;
+  font-size: 15px;
+  background-color: lightblue;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  margin:20px 0px;
+}
+
+
+.create3{
+  border: 3px solid rgb(0, 0, 0);
+  height: 300px;
+  overflow-y: scroll;
+}

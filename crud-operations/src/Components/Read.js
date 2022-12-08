@@ -17,8 +17,8 @@ const Read = () => {
         fetch(url.url)
         .then(res => res.json())
         .then(data => setData(data.data))
-        console.log(data)
     }
+    console.log(data)
 
 
     return (
