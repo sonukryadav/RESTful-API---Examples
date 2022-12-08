@@ -42,10 +42,53 @@
 .Navbar{
 display: flex;
 justify-content: space-evenly;
-padding: 15px;
+padding: 20px 0;
 width: 100%;
 background-color: black;
 }
 #link1{
 color: white;
+}
+
+/* ----------READ----------------- */
+.read{
+  display: grid;
+  grid-template-columns: auto auto;
+  border: 2px solid black;
+  margin-top: 50px;
+  width: 99%;
+  margin: auto;
+  background-color: lightsalmon;
+  padding: 30px 0;
+}
+
+.read1{
+/* border:1px solid red; */
+width: 100%;
+}
+.read2{
+border: 1px solid rgb(35, 40, 35);
+height: 300px;
+overflow-y: auto;
+width: 100%;
+}
+
+.inp1{
+  width: 70%;
+  padding: 10px 10px;
+  caret-color: red;
+  outline: 1pa solid black;
+  border: 2px solid black;
+  font-size: 15px;
+}
+
+.inp2{
+  border: 1px solid black;
+  padding: 10px 80px;
+  font-size: 15px;
+  background-color: lightblue;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  margin:20px 0px;
 }
